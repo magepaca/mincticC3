@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RETO 2</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<Script type="text/javascript" src="myScript.js"></Script>
+
+<body>
+    <center>
+
+        <h1>Administracion Tienda Disfraces</h1>
+        <hr style="width: 500px;">
+        <br>
+        <h3>Datos del cliente:</h3>
+
+        <div>
+
+            <input type="number" id="id" placeholder="codigo cliente"><br>
+            <input type="text" id="nombreCliente" placeholder="nombre cliente"><br>
+            <input type="text" id="mailCliente" placeholder="correo cliente"><br>
+            <input type="number" id="edadCliente" placeholder="edad cliente"><br><br>
+
+        </div>
+        <button onclick="guardarCliente()">Guardar Cliente</button>&nbsp;&nbsp;
+        <button onclick="leerCliente()">Mostrar Clientes</button>&nbsp;&nbsp;
+        <button onclick="actualizarCliente()">Actualizar Cliente</button>
+        <br><br>
+        <h3>Lista de Clientes:</h3>
+        <div id="listaClientes">
+
+        </div>
+</body>
+
+</html>
